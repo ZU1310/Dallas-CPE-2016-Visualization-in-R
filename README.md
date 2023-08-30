@@ -1,5 +1,5 @@
 # Dallas-CPE-2016-Visualization-in-R
-Data Loading and Preparation
+## Data Loading and Preparation
 
 First we load the dataset into R using the read.csv() function. We make sure to convert date columns into the Date format and time columns into the hh;mm;ss format. To ensure data quality, any missing or invalid rows are removed. Additionally we create columns to represent the month and month number, for analysis.
 
@@ -7,7 +7,7 @@ Libraries Used
 
 To facilitate data manipulation, visualization, mapping and correlation analysis in R we utilize libraries such as tidyverse, ggplot2, dplyr, lubridate, corrplot, leaflet among others.
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 
 We begin by generating summary statistics that provide insights on counts based on variables like race and gender. Visualizations play a role in understanding the data distribution. For example;
  Bar plots are created to visualize incidents by month and race.
@@ -21,7 +21,7 @@ We begin by generating summary statistics that provide insights on counts based 
  A correlation matrix is generated to explore connections among columns.
  Pie charts offer insights into divisions categorized by gender and race.
 
-Mapping
+## Mapping
 
 Using Leaflet librarys capabilities in R programming language allows us to create a map displaying incident locations effectively.
 
